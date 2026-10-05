@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="4BekNDh5dPKky_ttLsx1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=180;height=80;" value="Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium&lt;br/&gt;Kampus" vertex="1">
+          <mxGeometry height="710" width="460" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-4" parent="SpJB4fvc42u6FNs9x6-Z-1" style="ellipse;html=1;whiteSpace=wrap;" value="Lihat ketersediaan&lt;br&gt;peralatan" vertex="1">
+          <mxGeometry height="71.43" width="140" x="70" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-6" parent="SpJB4fvc42u6FNs9x6-Z-1" style="ellipse;html=1;whiteSpace=wrap;" value="Kelola data peralatan" vertex="1">
+          <mxGeometry height="71.43" width="140" x="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="400.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Petugas &lt;br&gt;Laboran" vertex="1">
+          <mxGeometry height="60" width="30" x="720" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-7" edge="1" parent="1" source="SpJB4fvc42u6FNs9x6-Z-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SpJB4fvc42u6FNs9x6-Z-2" value="">
+          <mxGeometry relative="1" x="-0.1621" as="geometry" />
+        </mxCell>
+        <mxCell id="SpJB4fvc42u6FNs9x6-Z-8" edge="1" parent="1" source="SpJB4fvc42u6FNs9x6-Z-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SpJB4fvc42u6FNs9x6-Z-3" value="">
+          <mxGeometry relative="1" x="-0.1713" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
