@@ -1,4 +1,8 @@
-node awal →  
-aktivitas “Buka daftar peralatan” →  
-aktivitas “Lihat informasi ketersediaan” →  
-node akhir aktivitas 
+## Activity Diagram: Melihat Ketersediaan Peralatan
+
+**Alur Aktivitas:**
+
+Node Awal  
+→ **Buka daftar peralatan**  
+→ **Lihat informasi ketersediaan**  
+→ Node Akhir
