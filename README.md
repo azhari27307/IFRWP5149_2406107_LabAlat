@@ -22,3 +22,12 @@
 **Kakas:** draw.io
 
 **Status Latihan Pertemuan:** USE CASE DIAGRAM DAN USE CASE DESCRIPTION
+
+# Pertemuan 04
+
+**Identitas:** 2406107 Azhari Ahmad Fauzani
+
+**Kakas:** draw.io
+
+**Status Latihan Pertemuan:** USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN
+COLLABORATION
