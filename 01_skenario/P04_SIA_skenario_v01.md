@@ -27,7 +27,7 @@ collaboration yang bersesuaian.
 
 # 2. Identifikasi Aktor dan Use Case
 
-## 2.1 Identifikasi Aktor
+## Identifikasi Aktor
 
 | No. | Aktor | Jenis Aktor | Deskripsi |
 |---:|---|---|---|
@@ -74,19 +74,19 @@ Katalog use case disusun secara kumulatif dengan mempertahankan use case dari Pe
 
 - SIA-UC11 Tambah Data Mahasiswa, SIA-UC12 Ubah Data Mahasiswa, dan SIA-UC13 Hapus Data Mahasiswa adalah bentuk khusus dari SIA-UC10 Kelola Data Mahasiswa. Alasannya, ketiganya merupakan bagian dari pengelolaan data mahasiswa.
 - Tuliskan perilaku pembeda setiap use case khusus:
-  - **Tambah Data Mahasiswa:** menghasilkan data mahasiswa baru.
-  - **Ubah Data Mahasiswa:** menghasilkan data mahasiswa yang telah diperbarui.
-  - **Hapus Data Mahasiswa:** menghapus data mahasiswa yang tidak memiliki data akademik aktif.
+  - Tambah Data Mahasiswa: menghasilkan data mahasiswa baru.
+  - Ubah Data Mahasiswa: menghasilkan data mahasiswa yang telah diperbarui.
+  - Hapus Data Mahasiswa: menghapus data mahasiswa yang tidak memiliki data akademik aktif.
 
   ## Tetapkan Collaboration
 
-- **SIA-CO01 — Input Nilai Mata Kuliah** merealisasikan use case SIA-UC08 Input Nilai Mata Kuliah.
-- **SIA-CO02 — Lihat KHS** merealisasikan use case SIA-UC09 Lihat KHS.
+- SIA-CO01 — Input Nilai Mata Kuliah merealisasikan use case SIA-UC08 Input Nilai Mata Kuliah.
+- SIA-CO02 — Lihat KHS merealisasikan use case SIA-UC09 Lihat KHS.
 
 
 ## Susun Use Case Description
 
-### A. SIA-UC08: Input Nilai Mata Kuliah
+### SIA-UC08: Input Nilai Mata Kuliah
 
 | Elemen | Deskripsi |
 |---|---|
@@ -100,7 +100,7 @@ Katalog use case disusun secara kumulatif dengan mempertahankan use case dari Pe
 | Pascakondisi gagal | Nilai tidak berhasil disimpan atau data nilai sebelumnya tidak berubah. |
 | Collaboration | SIA-CO01: Input Nilai Mata Kuliah |
 
-**Alur utama**
+Alur utama
 
 | Langkah | Tindakan Dosen | Respons Sistem |
 |---|---|---|
@@ -109,12 +109,12 @@ Katalog use case disusun secara kumulatif dengan mempertahankan use case dari Pe
 | 3 | Mengonfirmasi penyimpanan nilai. | Memeriksa hak akses dosen dan rentang nilai. |
 | 4 | Menyimpan nilai. | Menyimpan nilai dan menampilkan konfirmasi berhasil. |
 
-**Alur alternatif atau pengecualian**
+Alur alternatif atau pengecualian
 
-- **A1: Dosen bukan pengampu mata kuliah.** Sistem menolak input nilai dan tidak menyimpan perubahan.
-- **A2: Nilai di luar rentang yang sah.** Sistem menolak nilai tersebut dan menampilkan pesan kesalahan. Nilai tidak disimpan sampai diperbaiki.
+- A1: Dosen bukan pengampu mata kuliah. Sistem menolak input nilai dan tidak menyimpan perubahan.
+- A2: Nilai di luar rentang yang sah. Sistem menolak nilai tersebut dan menampilkan pesan kesalahan. Nilai tidak disimpan sampai diperbaiki.
 
-### B. SIA-UC09: Lihat KHS
+### SIA-UC09: Lihat KHS
 
 | Elemen | Deskripsi |
 |---|---|
@@ -128,7 +128,7 @@ Katalog use case disusun secara kumulatif dengan mempertahankan use case dari Pe
 | Pascakondisi gagal | KHS tidak dapat ditampilkan dan sistem memberikan informasi yang sesuai. |
 | Collaboration | SIA-CO02: Lihat KHS |
 
-**Alur utama**
+Alur utama
 
 | Langkah | Tindakan Mahasiswa | Respons Sistem |
 |---|---|---|

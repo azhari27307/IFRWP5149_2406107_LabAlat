@@ -31,3 +31,11 @@
 
 **Status Latihan Pertemuan:** USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN
 COLLABORATION
+
+# Pertemuan 05
+
+**Identitas:** 2406107 Azhari Ahmad Fauzani
+
+**Kakas:** draw.io
+
+**Status Latihan Pertemuan:** SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
