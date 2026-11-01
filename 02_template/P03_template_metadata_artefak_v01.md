@@ -1,4 +1,4 @@
-ID artefak         : LAB-P02-UC
+ID artefak         : LAB-P03-UC
 Judul              : USE CASE DIAGRAM DAN USE CASE DESCRIPTION
 Pertemuan          : 03
 Sumber kebutuhan   : Modul
