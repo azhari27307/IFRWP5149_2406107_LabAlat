@@ -1,4 +1,4 @@
-ID artefak         : LAB-P05-UC
+ID artefak         : P05
 Judul              : SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
 Pertemuan          : 05
 Sumber kebutuhan   : Modul

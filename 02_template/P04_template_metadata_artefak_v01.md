@@ -1,4 +1,4 @@
-ID artefak         : LAB-P04-UC
+ID artefak         : P04
 Judul              : USE CASE DIAGRAM LANJUTAN : GENERALIZATION DAN COLABORATION
 Pertemuan          : 04
 Sumber kebutuhan   : Modul

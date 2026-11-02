@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="YbILXY7enlGS88Gatwvd" name="Page-4">
+    <mxGraphModel dx="1229" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-1" parent="1" style="swimlane;startSize=30;html=1;fontStyle=1;fillColor=#f5f5f5;swimlaneFillColor=#ffffff;collapsible=0;horizontal=1;" value="Peminjam" vertex="1">
+          <mxGeometry height="745" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-2" parent="xXClqZUgxOs1xYyPSnwR-1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="26" width="26" x="187" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-3" parent="xXClqZUgxOs1xYyPSnwR-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Membuka fungsi Lihat Ketersediaan Peralatan" vertex="1">
+          <mxGeometry height="60" width="200" x="100" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-4" parent="1" style="swimlane;startSize=30;html=1;fontStyle=1;fillColor=#f5f5f5;swimlaneFillColor=#ffffff;collapsible=0;horizontal=1;" value="Sistem" vertex="1">
+          <mxGeometry height="745" width="400" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-5" parent="xXClqZUgxOs1xYyPSnwR-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontSize=11;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan daftar peralatan beserta status ketersediaannya" vertex="1">
+          <mxGeometry height="60" width="200" x="100" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-6" parent="xXClqZUgxOs1xYyPSnwR-4" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Peralatan tersedia?" vertex="1">
+          <mxGeometry height="84" width="170" x="115" y="333" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-7" parent="xXClqZUgxOs1xYyPSnwR-4" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fontSize=11;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan tidak ada peralatan yang tersedia" vertex="1">
+          <mxGeometry height="60" width="200" x="100" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-8" parent="xXClqZUgxOs1xYyPSnwR-4" style="rhombus;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="183" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-9" parent="xXClqZUgxOs1xYyPSnwR-4" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="183" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-10" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-2" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-11" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-3" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1.000;exitY=0.500;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-12" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-5" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-13" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-6" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-7" value="[tidak tersedia]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-14" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-6" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;exitX=1.000;exitY=0.500;exitDx=0;exitDy=0;entryX=1.000;entryY=0.500;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-8" value="[tersedia]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="375" />
+              <mxPoint x="775" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-15" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-7" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xXClqZUgxOs1xYyPSnwR-16" edge="1" parent="1" source="xXClqZUgxOs1xYyPSnwR-8" style="html=1;endArrow=block;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.500;exitY=1.000;exitDx=0;exitDy=0;entryX=0.500;entryY=0.000;entryDx=0;entryDy=0;" target="xXClqZUgxOs1xYyPSnwR-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
