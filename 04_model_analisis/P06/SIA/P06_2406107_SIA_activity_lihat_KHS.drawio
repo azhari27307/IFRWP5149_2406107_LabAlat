@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="DZR1-S0-O_O2BaD0X44A" name="Page-4">
+    <mxGraphModel dx="1213" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" value="Activity Diagram SIA Lihat KHS" vertex="1">
+          <mxGeometry height="30" width="800" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-2" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="660" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-3" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="660" width="600" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-11" parent="ezjJxxYjqRmgM8RTVLs5-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menampilkan pesan bahwa belum ada nilai yang dipublikasikan untuk semester tersebut" vertex="1">
+          <mxGeometry height="70" width="190" x="350" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-13" parent="ezjJxxYjqRmgM8RTVLs5-3" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="430" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-21" edge="1" parent="ezjJxxYjqRmgM8RTVLs5-3" source="ezjJxxYjqRmgM8RTVLs5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-10" parent="ezjJxxYjqRmgM8RTVLs5-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menampilkan KHS sesuai semester yang dipilih beserta nilai yang sudah dipublikasikan" vertex="1">
+          <mxGeometry height="70" width="190" x="10" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-20" edge="1" parent="ezjJxxYjqRmgM8RTVLs5-3" source="ezjJxxYjqRmgM8RTVLs5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ezjJxxYjqRmgM8RTVLs5-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="104.99999999999977" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-4" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="175" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Membuka menu Lihat KHS" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan pilihan semester" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Memilih semester yang ingin dilihat" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="&lt;span style=&quot;font-size: 11px; white-space: nowrap;&quot;&gt;Nilai semester sudah&lt;br&gt;&amp;nbsp;dipublikasikan?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="145" x="370" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-14" edge="1" parent="1" source="ezjJxxYjqRmgM8RTVLs5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-15" edge="1" parent="1" source="ezjJxxYjqRmgM8RTVLs5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-16" edge="1" parent="1" source="ezjJxxYjqRmgM8RTVLs5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-17" edge="1" parent="1" source="ezjJxxYjqRmgM8RTVLs5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-18" edge="1" parent="1" source="ezjJxxYjqRmgM8RTVLs5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-10" value="[sudah dipublikasikan]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ezjJxxYjqRmgM8RTVLs5-19" edge="1" parent="1" source="ezjJxxYjqRmgM8RTVLs5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="ezjJxxYjqRmgM8RTVLs5-11" value="[belum dipublikasikan]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

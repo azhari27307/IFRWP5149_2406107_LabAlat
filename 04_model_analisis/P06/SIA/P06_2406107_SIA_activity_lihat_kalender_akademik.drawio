@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="cU9qgHPmq1HnEvO3xfz7" name="Page-2">
+    <mxGraphModel dx="1153" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" value="Activity Diagram SIA-UC07 Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="30" width="800" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-2" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Civitas Akademika" vertex="1">
+          <mxGeometry height="660" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-3" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="660" width="500" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-11" parent="kVfCB8zrIKPwDM_EOHus-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menampilkan pesan bahwa kalender akademik untuk semester tersebut belum tersedia" vertex="1">
+          <mxGeometry height="70" width="190" x="297" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-13" parent="kVfCB8zrIKPwDM_EOHus-3" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="377" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-21" edge="1" parent="kVfCB8zrIKPwDM_EOHus-3" source="kVfCB8zrIKPwDM_EOHus-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-10" parent="kVfCB8zrIKPwDM_EOHus-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan kalender akademik sesuai semester yang dipilih" vertex="1">
+          <mxGeometry height="60" width="180" x="30" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-20" edge="1" parent="kVfCB8zrIKPwDM_EOHus-3" source="kVfCB8zrIKPwDM_EOHus-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kVfCB8zrIKPwDM_EOHus-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120.00000000000023" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-8" parent="kVfCB8zrIKPwDM_EOHus-3" style="rhombus;whiteSpace=wrap;html=1;" value="Data kalender semester tersedia?" vertex="1">
+          <mxGeometry height="70" width="180" x="5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-18" edge="1" parent="kVfCB8zrIKPwDM_EOHus-3" source="kVfCB8zrIKPwDM_EOHus-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-10" value="[tersedia]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-19" edge="1" parent="kVfCB8zrIKPwDM_EOHus-3" source="kVfCB8zrIKPwDM_EOHus-8" style="rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-11" value="[belum tersedia]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-4" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="175" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Membuka menu Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan halaman kalender akademik" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Memilih semester yang ingin dilihat" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-14" edge="1" parent="1" source="kVfCB8zrIKPwDM_EOHus-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-15" edge="1" parent="1" source="kVfCB8zrIKPwDM_EOHus-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-16" edge="1" parent="1" source="kVfCB8zrIKPwDM_EOHus-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVfCB8zrIKPwDM_EOHus-17" edge="1" parent="1" source="kVfCB8zrIKPwDM_EOHus-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="kVfCB8zrIKPwDM_EOHus-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

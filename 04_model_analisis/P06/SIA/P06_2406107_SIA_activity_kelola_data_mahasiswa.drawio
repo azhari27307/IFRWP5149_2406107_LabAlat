@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="IZ-MjF4y7C5EONB-7_Vb" name="Page-5">
+    <mxGraphModel dx="973" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" value="Activity Diagram SIA Kelola Data Mahasiswa" vertex="1">
+          <mxGeometry height="30" width="800" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-2" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="1010" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-3" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="1010" width="500" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-11" parent="-JTQriZc_Q_UaT_bMS9e-3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="&lt;span style=&quot;font-size: 10px; text-align: right;&quot;&gt;Data lengkap dan&lt;br&gt;&amp;nbsp;sesuai ketentuan?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="145" x="77.5" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-15" parent="-JTQriZc_Q_UaT_bMS9e-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Menolak penyimpanan dan menampilkan pesan kesalahan agar Admin Akademik memperbaiki data" vertex="1">
+          <mxGeometry height="70" width="190" x="297" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-26" edge="1" parent="-JTQriZc_Q_UaT_bMS9e-3" source="-JTQriZc_Q_UaT_bMS9e-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-JTQriZc_Q_UaT_bMS9e-15" value="[tidak]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-17" parent="-JTQriZc_Q_UaT_bMS9e-3" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="377" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-29" edge="1" parent="-JTQriZc_Q_UaT_bMS9e-3" source="-JTQriZc_Q_UaT_bMS9e-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-4" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="175" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Membuka menu Kelola Data Mahasiswa" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menampilkan halaman pengelolaan dan daftar data mahasiswa" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Memilih jenis pengelolaan data mahasiswa: tambah, ubah, atau hapus" vertex="1">
+          <mxGeometry height="60" width="160" x="110" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Mengarahkan proses ke skenario khusus sesuai pilihan: SIA-UC11 Tambah, SIA-UC12 Ubah, atau SIA-UC13 Hapus Data Mahasiswa" vertex="1">
+          <mxGeometry height="80" width="200" x="390" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menjalankan langkah pengelolaan sesuai skenario khusus yang dipilih" vertex="1">
+          <mxGeometry height="60" width="160" x="110" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Memproses pengelolaan sesuai skenario khusus yang dipilih" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Menyelesaikan proses pengelolaan" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menampilkan konfirmasi hasil pengelolaan data mahasiswa" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-18" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-19" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-20" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-21" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-22" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-23" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-24" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-25" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-JTQriZc_Q_UaT_bMS9e-13" value="[ya]">
+          <mxGeometry relative="1" x="-0.1714" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-27" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="-JTQriZc_Q_UaT_bMS9e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-JTQriZc_Q_UaT_bMS9e-28" edge="1" parent="1" source="-JTQriZc_Q_UaT_bMS9e-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-JTQriZc_Q_UaT_bMS9e-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

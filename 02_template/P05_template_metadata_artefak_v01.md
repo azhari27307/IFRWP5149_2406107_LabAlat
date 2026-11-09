@@ -8,4 +8,4 @@ Pembuat            : Azhari Ahmad Fauzani_2406107
 Versi dan tanggal  : v01 / 26/10/2026
 Asumsi             : 
 Pemeriksaan        : 
-Riwayat revisi     : [perubahan yang benar-benar dilakukan]
+Riwayat revisi     : 

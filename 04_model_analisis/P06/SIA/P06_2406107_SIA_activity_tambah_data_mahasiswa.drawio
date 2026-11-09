@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="GSGZMfLspuA9JBFcAQaB" name="Page-6">
+    <mxGraphModel dx="934" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=14;" value="Activity Diagram SIA Tambah Data Mahasiswa" vertex="1">
+          <mxGeometry height="30" width="800" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-2" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="800" width="300" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-11" parent="Wt_ZZ1SbPPD1ZQuGgsW3-2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Menyimpan data mahasiswa baru" vertex="1">
+          <mxGeometry height="50" width="160" x="70" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-3" parent="1" style="swimlane;horizontal=1;startSize=30;fillColor=none;strokeColor=#000000;fontStyle=1;" value="Sistem" vertex="1">
+          <mxGeometry height="800" width="500" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-15" parent="Wt_ZZ1SbPPD1ZQuGgsW3-3" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="377" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-9" parent="Wt_ZZ1SbPPD1ZQuGgsW3-3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="&lt;span style=&quot;font-size: 10px; text-align: right;&quot;&gt;Data mahasiswa &lt;br&gt;lengkap?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="125" x="87.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-13" parent="Wt_ZZ1SbPPD1ZQuGgsW3-3" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Menolak penyimpanan dan meminta Admin Akademik melengkapi data mahasiswa" vertex="1">
+          <mxGeometry height="70" width="190" x="297" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-22" edge="1" parent="Wt_ZZ1SbPPD1ZQuGgsW3-3" source="Wt_ZZ1SbPPD1ZQuGgsW3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-13" value="[tidak lengkap]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-25" edge="1" parent="Wt_ZZ1SbPPD1ZQuGgsW3-3" source="Wt_ZZ1SbPPD1ZQuGgsW3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-4" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="175" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Memilih Tambah Data Mahasiswa pada fungsi Kelola Data Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="160" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menjalankan proses umum pengelolaan data mahasiswa (lihat SIA-UC10)" vertex="1">
+          <mxGeometry height="60" width="160" x="410" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Mengisi formulir data mahasiswa baru" vertex="1">
+          <mxGeometry height="50" width="160" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Memeriksa kelengkapan data mahasiswa yang dimasukkan" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Menyimpan data mahasiswa baru dan menampilkan konfirmasi bahwa data berhasil ditambahkan" vertex="1">
+          <mxGeometry height="60" width="200" x="390" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-16" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-17" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-18" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-19" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-20" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-21" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-11" value="[lengkap]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-23" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_ZZ1SbPPD1ZQuGgsW3-24" edge="1" parent="1" source="Wt_ZZ1SbPPD1ZQuGgsW3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Wt_ZZ1SbPPD1ZQuGgsW3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

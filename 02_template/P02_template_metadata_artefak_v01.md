@@ -7,5 +7,5 @@ Kakas              : [kakas yang digunakan]
 Pembuat            : Azhari Ahmad Fauzani_2406107
 Versi dan tanggal  : v01 / 05/10/2026
 Asumsi             : Hak akses sesuai; autentikasi di luar latihan
-Pemeriksaan        : [hasil review]
-Riwayat revisi     : [perubahan yang benar-benar dilakukan]
+Pemeriksaan        : 
+Riwayat revisi     : 
